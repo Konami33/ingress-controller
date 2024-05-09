@@ -18,7 +18,7 @@ An NGINX Controller is deployed as a standard deployment within Kubernetes. The 
 
 The nginx program within the image is located at `/nginx-ingress-controller`, necessitating this path as the command to initiate the nginx-service. Familiarity with NGINX reveals its array of configuration options, such as log file paths, keep-alive thresholds, SSL settings, and session timeouts. To separate these configuration details from the nginx-controller image, a ConfigMap object must be created and provided. Initially, the ConfigMap object may remain empty, but its creation facilitates future modifications to configuration settings. Any future adjustments can be simply integrated into this ConfigMap object.
 
-![alt text](./images/ingress.png)
+![alt text](./images/image.png)
 
 Also we need to pass in two environment variables that carry the POD’s name and namespace it is deployed to. The nginx service requires these to read the
 configuration data from within the POD. Then we have to specify the ports used by the controller.
