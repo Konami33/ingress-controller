@@ -83,10 +83,10 @@ minikube tunnel
 
 6. Then access these server using:
 ```
-http://127.0.0.1:server1
+http://127.0.0.1/server1
 ```
 ```
-http://127.0.0.1:server2
+http://127.0.0.1/server2
 ```
 
 ## NodePort issue on Minikube for Windows.
