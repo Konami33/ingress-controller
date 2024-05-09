@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: express-server-2
-        image: minhaz71/express-server-2:latest
+        image: konami98/server:v2
         ports:
-        - containerPort: 3002
+        - containerPort: 8002

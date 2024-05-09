@@ -6,5 +6,5 @@ spec:
   selector:
     app: server1
   ports:
-    - port: 3001
-      targetPort: 3001
+    - port: 8001
+      targetPort: 8001

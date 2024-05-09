@@ -14,11 +14,11 @@ spec:
           service:
             name: server1-service
             port:
-              number: 3001
+              number: 8001
       - path: /server2
         pathType: Prefix
         backend:
           service:
             name: server2-service
             port:
-              number: 3002
+              number: 8002
